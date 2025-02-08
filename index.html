@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap" rel="stylesheet">
+    <title>for da pook</title>
+</head>
+<body>
+    <div id="click-door">
+        <div>
+            <div class="door-text">
+                <p>₊˚⊹♡ Click the door to enter! (´｡• ◡ •｡`) ♡</p>
+            </div>
+            <div  class="door-button">
+                <button onclick="openDoor()">
+                    <img src="/images/door1.png" alt="Door" id="door">
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+        <div id="main-content" style="display: none;">
+            <div class="container">
+                <div class="main-prompt">
+                    <img src=>
+                    <img class="image" src="/images/flower.gif" alt="">
+                    <img class="image2" src="images/bingus-bingus-flower.gif">
+                    <audio>
+                        <source src="/images/BECAUSE I GOT HIGH _ Medieval Bardcore Version _ Afroman.mp3" type="mp3">
+                    </audio>
+                    <h1 class="hh" id="name"> ♡ ̆̈ Hello Madam Pook </h1>
+                    <p class="pp" id="question">Will you be my Valentine? (❁´◡`❁)</p>
+                    <p>ε(´｡•᎑•`)っ 💕</p>
+                    <div class="buttons">
+                        <button id="no-button" onclick="showMessage('No')">No (don't or I cry) </button>
+                        <button onclick="showMessage('Yes')" id="yesButton">Yes!!</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="new-page" style="display: none;">
+        <div class="container">
+            <h1>Pick a choice: </h1>
+            <div class="choices">
+                <div class="choice">
+                    <input type="checkbox" id="yamashiro" name="yamashiro" value="Yamashiro">
+                    <label for="yamashiro">Yamashiro</label>
+                    <img class="image" src="/images/yamashiro.jpg" alt="">
+                </div>
+                <div class="choice">
+                    <input type="checkbox" id="water-grill" name="water-grill" value="Water Grill">
+                    <label for="water-grill">Water Grill</label>
+                    <img class="image" src="/images/watergrill.jpg" alt="">
+                </div>
+                <div class="choice">
+                    <input type="checkbox" id="KBBQ" name="KBBQ" value="KBBQ">
+                    <label for="KBBQ">KBBQ</label>
+                    <img class="image" src="/images/tk92.jpg" alt="">
+                </div>
+                <div class="choice">
+                    <input type="checkbox" id="tao" name="tao" value="tao">
+                    <label for="tao">Tao</label>
+                    <img class="image" src="/images/tao.jpg" alt="">
+                </div>
+            </div>
+            <button id="continue-button" onclick="showMessage2('Continue')">Continue</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    </body>
+    </html>
